@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f7cd75;
+}
+
+main{
+    width: 59.7rem;
+    height: 33rem;
+    margin: 7.5rem auto;
+    display: grid;
+    grid-template-columns: 22.2rem 1fr;
+}
+
+.wallet{
+    height: 100%;
+    background-color: #f2f2f2;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.detail{
+    height: 100%;
+    background-color: #ffffff;
+    overflow-y: scroll;
+}
+
+.plus{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    margin: 3rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.plus img{
+    width: 1.7rem;
+    height: 1.7rem;
+    margin-top: 0.1rem;
+}
+
+.card{
+    width: 100%;
+    height: 8rem;
+    border-radius: 4%;
+    background-color: white;
+    margin-bottom: 2.3rem;
+    cursor: pointer;
+}
+
+.card:hover{
+    border: 0.2rem solid #8191bc;
+}
+
+.cards{
+    margin: 3rem 3rem;
+    width: 79%;
+}
+
+.card img{
+    width: 5rem;
+    height: 3rem;
+    margin: 0.5rem;
+}
+
+.card p{
+    width: 9rem;
+    margin-left: 1rem;
+    margin-top: 0.4rem;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.balance{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.balance h2{
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+
+.balance{
+    font-size: 1rem;
+}
+
+.line{
+    width: 88%;
+    height: 0.1rem;
+    background-color: #cfc6c6;
+    margin: 3rem 2rem;
+}
+
+.items{
+    margin: 2rem;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 4rem 1fr 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 3rem;
+}
+
+.infox{
+    display: grid;
+    grid-template-columns: 4rem 1fr 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 3rem;
+}
+
+.info img{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    border: 0.1rem solid #cfc6c6;
+    margin: auto;
+}
+
+.infox img{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    border: 0.1rem solid #cfc6c6;
+    margin: auto
+}
+
+.info h2{
+    font-size: 1.7rem;
+}
+
+.infox h2{
+    font-size: 1.7rem;
+}
+
+.info p{
+    color: #a9a6a6;
+}
+
+.infox p{
+    color: #a9a6a6;
+}
+
+.info h3{
+    font-size: 1.5rem;
+    color: #8191bc;
+}
+
+.infox h3{
+    font-size: 1.5rem;
+    color: #8aca60;
+}
